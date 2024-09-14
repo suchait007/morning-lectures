@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: invoice-service-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo_db
+    username: postgres
+    password: test123
+  flyway:
+    default-schema: invoice_svc_db
+  locations:
+    - classpath: db/migration
+
+
+server:
+  port: 8002
+
