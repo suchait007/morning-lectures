@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "b73615be-87c8-4c67-9fad-7cf03230fcd3",
+		"name": "morning-lectures",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7798463"
+	},
+	"item": [
+		{
+			"name": "Invoice GET API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8002/v1/invoices?user_ids=USER002,USER005,USER007",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"v1",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "user_ids",
+							"value": "USER002,USER005,USER007"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

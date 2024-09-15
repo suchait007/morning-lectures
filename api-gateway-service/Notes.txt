@@ -1,0 +1,4 @@
+
+
+
+api (http://localhost:8005/invoice-service/v1/invoices) -> invoice-service(http://localhost:8002/v1/invoices)
